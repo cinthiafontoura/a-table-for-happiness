@@ -1,1 +1,1 @@
-web: gunicorn atableforhappiness.wsgi -p $PORT
+web: gunicorn atableforhappiness.wsgi:application --bind 0.0.0.0:${PORT}
