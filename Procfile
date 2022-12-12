@@ -1,1 +1,1 @@
-web: gunicorn bookinsgmanagement.wsgi -p $PORT
+web: gunicorn atableforhappiness.wsgi -p $PORT
