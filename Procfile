@@ -1,1 +1,1 @@
-web: gunicorn atableforhappiness.wsgi.application
+web: gunicorn atableforhappiness.wsgi
